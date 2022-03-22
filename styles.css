@@ -1,0 +1,254 @@
+
+html *
+{
+   font-family: Arial ;
+}
+
+.bg-img{
+background-image: url("src/img/hero-img.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height:480px;
+}
+
+.nav-item a {
+
+color:  gainsboro !important;
+
+}
+.nav-item{
+
+padding-inline: 2%;
+}
+
+.navbar-toggler{
+color: gainsboro !important;
+    
+}
+/* .top-nav> a :hover{
+    color: white;
+    background-color: rebeccapurple;
+   }
+
+.top-nav> .active>a{
+
+    color: white;
+    size: 17px;
+       }
+
+.navbar-toggler{
+
+    color:gainsboro ;
+} */
+
+.cover_container{
+width: 40%;
+color: white;
+padding-left: 10%;
+padding-top:5%;
+
+}
+.cover_container h6{
+    padding-top: 2%;
+    color: gray;
+   padding-bottom: 2%;
+ }
+ .cover_container p{
+   width: fit-content;
+    color: gainsboro;
+   
+ }
+
+ .button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+
+  .cover_container button {
+      background-color: orange !important;
+  }
+
+  .services_container{
+background-color: rgb(248,248,248);
+padding:  5%;
+  }
+
+  .services_container row{
+    background-color: white;
+    margin: 5%;
+ color: black;
+ padding:3%;
+
+   }
+   .icon_container{
+    border: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    padding: 40%;
+    margin:10% ;
+    border-radius: 60%;
+    background-color: orange;
+    position: relative;
+   }
+
+   .icon_container i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+   }
+
+
+   .about_me{
+    background-color: white;
+    padding:  5%;
+    align-items: center;
+      }
+    .about_me img{
+        height: 65%;
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+
+      .about_me p{
+       padding-right: 7%;
+      }
+
+        .progress{
+
+        margin-bottom: 5%;
+        
+          
+        }
+      .progress-bar{
+        background-color: orange !important;
+
+        }
+        .progress_bar_section{
+
+          padding-top: 12%;
+        }
+  
+.carousal-container{
+  background-color: orange;
+  color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  height: 70%;
+}
+.carousel-indicators {
+  bottom:-100px !important;
+
+}
+
+.carousel-indicators > li {  
+          border-radius: 50% !important;
+          width: 7px !important;
+          height: 7px !important;
+         
+}
+.carousel-inner  span{
+
+  font-size: larger !important;
+  font-weight: bold !important;
+}
+
+.carousel-inner  h3{
+padding-bottom: 7%;
+}
+.carousel-inner  i{
+  color: rgb(248,248,248);
+  }
+  .blog-posts{
+    background-color: rgb(248,248,248);
+    padding:  5%;
+
+}
+
+.blog-posts h5 ,p{
+  padding: 4%;
+    }
+ .blog-posts span{
+      margin: 4%;
+      color: gray;
+    
+} 
+.white-container{
+  background-color: white;
+  padding-bottom: 10%;
+  margin-bottom: 5%;
+}
+
+.white-container .orange_text{
+  color: orange;
+}
+
+.say-hello{
+  background-color: orange;
+  color: white;
+  padding: 5%;
+}
+
+.say-hello .button{
+  background-color: black;
+  
+}
+
+.form-control{
+  background-color:transparent !important;
+  border: 0 !important;
+    outline: 0 !important;
+    border-bottom: 1px solid white !important;
+    box-shadow: none !important ;
+    margin-bottom: 5%;
+
+}
+
+
+::placeholder { 
+  color: white!important;
+  opacity: 1; 
+}
+
+
+.footer{
+  padding: 5%;
+  
+  color: grey;
+}
+
+.footer i{
+  margin-right: 5%;
+
+}
+.footer h5{
+
+margin-bottom: 10%;
+color: black !important;
+}
+
+
+.footer-text  {
+  margin-bottom: 20% !important;
+  padding-bottom: 20% !important;
+  
+}
+
+.copyright{
+  color: grey;
+  margin-bottom: 10% !important;
+}
